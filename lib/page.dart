@@ -24,23 +24,21 @@ class _logicState extends State<logic> {
             ]),
         padding: EdgeInsets.all(20.0),
         child: Center(
-          child: Text(
-            'Having Doubts, Let your Destiny Decide ...!!!',
-            style: TextStyle(
-              fontSize: 18.0,
-              letterSpacing: 1.5,
-              fontWeight: FontWeight.bold,
-              color: Colors.black,
+          child: Card(
+            child: ListTile(
+              title: Text(
+                'Having Doubts, Why not Make It Easy ?      Ask Me Anything',
+                style: TextStyle(
+                  letterSpacing: 2,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
             ),
           ),
         ),
       ),
-      AnimatedContainer(
-        duration: Duration(milliseconds: 50),
-        width: 280,
-        height: 280,
-        curve: Curves.easeInOutSine,
-        child: Image.asset('images/down.png'),
+      SizedBox(
+        height: 140,
       ),
       AnimatedContainer(
         duration: Duration(milliseconds: 200),
