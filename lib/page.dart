@@ -41,7 +41,7 @@ class _logicState extends State<logic> {
         height: 140,
       ),
       AnimatedContainer(
-        duration: Duration(milliseconds: 200),
+        duration: Duration(milliseconds: 400),
         width: 360,
         height: 400,
         curve: Curves.easeInOutBack,
